@@ -1,1 +1,1 @@
-alert("Hello I am Nuwan")
+loadPage();
