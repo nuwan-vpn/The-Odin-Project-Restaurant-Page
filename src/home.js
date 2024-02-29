@@ -20,3 +20,5 @@ const createRestaurantHomePage = () =>{
     pageContent.appendChild(copy);
     content.appendChild(pageContent);
 }
+
+export default createRestaurantHomePage;
