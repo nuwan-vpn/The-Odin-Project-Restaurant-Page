@@ -14,5 +14,9 @@ const createRestaurantHomePage = () =>{
     headline.textContent = 'Welcome to our restaurant';
     pageContent.appendChild(headline);
 
-    
+    //Create and append copy element
+    const copy = document.createElement('p');
+    copy.textContent = 'We serve the best food in town.';
+    pageContent.appendChild(copy);
+    content.appendChild(pageContent);
 }
