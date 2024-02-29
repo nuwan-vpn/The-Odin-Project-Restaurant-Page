@@ -8,5 +8,11 @@ const createRestaurantHomePage = () =>{
     image.src = './img/reataurant.jpg';
     image.height = '300';
     pageContent.appendChild(image);
+
+    //Create and append headline element
+    const headline = document.createElement('h1');
+    headline.textContent = 'Welcome to our restaurant';
+    pageContent.appendChild(headline);
+
     
 }
