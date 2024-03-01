@@ -20,6 +20,9 @@ const createRestaurantMenuPage = () =>{
     menuItem3.textContent = 'Rice';
     menuList.appendChild(menuItem3);
 
+    pageContent.appendChild(menuList);
+    content.appendChild(pageContent);
+    
 }
 
 export default createRestaurantMenuPage;
