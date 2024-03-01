@@ -7,5 +7,12 @@ const createRestaurantContactPage = () =>{
     const form = document.createElement('form');
     form.classList.add('contact-form');
 
+    const headingInput = document.createElement('input');
+    headingInput.type = 'text';
+    headingInput.placeholder = 'Enter heading';
+    form.appendChild(headingInput);
+
     
+
+
 }
