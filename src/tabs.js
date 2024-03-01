@@ -23,17 +23,28 @@ const createTabs = () =>{
     content.appendChild(div3);
 
     div1.addEventListener('click', ()=>{
+        clearContent();
         createRestaurantHomePage();
     });
 
     div2.addEventListener('click', ()=>{
+        clearContent();
         createRestaurantMenuPage();
     });
 
     div3.addEventListener('click', ()=>{
+        clearContent();
         createRestaurantContactPage();
     });
 
+}
+
+function clearContent(){
+    const content = document.querySelector('#content');
+    const pageContent = document.querySelector('.page-content');
+    if(pageContent){
+        content.removeChild(pageContent);
+    }
 }
 
 export default createTabs;

@@ -5,6 +5,7 @@ const createRestaurantMenuPage = () =>{
 
     const heading = document.createElement('h1');
     heading.textContent = 'Our Menu';
+    pageContent.appendChild(heading);
 
     const menuList = document.createElement('ul');
 
