@@ -13,16 +13,16 @@ const createRestaurantMenuPage = () =>{
     menuList.appendChild(menuItem1);
 
     const menuItem2 = document.createElement('li');
-    menuItem2.textContent = 'Rice';
+    menuItem2.textContent = 'Dhal curry';
     menuList.appendChild(menuItem2);
 
     const menuItem3 = document.createElement('li');
-    menuItem3.textContent = 'Rice';
+    menuItem3.textContent = 'Chicken';
     menuList.appendChild(menuItem3);
 
     pageContent.appendChild(menuList);
     content.appendChild(pageContent);
-    
+
 }
 
 export default createRestaurantMenuPage;
