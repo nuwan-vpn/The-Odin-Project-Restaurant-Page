@@ -1,3 +1,4 @@
+
 const createRestaurantHomePage = () =>{
     const content = document.querySelector("#content");
     const pageContent = document.createElement('div');
@@ -5,7 +6,7 @@ const createRestaurantHomePage = () =>{
 
     //Create and append image element
     const image = document.createElement('img');
-    image.src = './img/reataurant.jpg';
+    image.src = '/img/restaurant.jpg';
     image.height = '300';
     pageContent.appendChild(image);
 
