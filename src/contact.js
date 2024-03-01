@@ -12,6 +12,11 @@ const createRestaurantContactPage = () =>{
     headingInput.placeholder = 'Enter heading';
     form.appendChild(headingInput);
 
+    const addressInput = document.createElement('input');
+    addressInput.type = 'text';
+    addressInput.placeholder = 'Enter address';
+    form.appendChild(addressInput);
+
     
 
 
