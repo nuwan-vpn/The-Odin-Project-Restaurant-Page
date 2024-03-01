@@ -22,5 +22,14 @@ const createRestaurantContactPage = () =>{
     phoneInput.placeholder = 'Enter phone number';
     form.appendChild(phoneInput);
 
+    const submitButton = document.createElement('input');
+    submitButton.type = 'submit';
+    submitButton.value = 'Submit';
+    form.appendChild(submitButton);
+
+    pageContent.appendChild(form);
+    content.appendChild(pageContent);
 
 }
+
+export default createRestaurantContactPage;
