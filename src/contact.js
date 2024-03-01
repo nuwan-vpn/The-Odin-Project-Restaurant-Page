@@ -17,7 +17,10 @@ const createRestaurantContactPage = () =>{
     addressInput.placeholder = 'Enter address';
     form.appendChild(addressInput);
 
-    
+    const phoneInput = document.createElement('input');
+    phoneInput.type = 'text';
+    phoneInput.placeholder = 'Enter phone number';
+    form.appendChild(phoneInput);
 
 
 }
